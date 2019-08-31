@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Titulo"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtTitulo"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="" />
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Autor"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtAutor"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:layout_marginLeft="20dp"
+        android:text="" />
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Editora"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtEditora"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:textSize="12sp"
+        android:text="Cadastrar"
+        />
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:textSize="12sp"
+        android:text="Consultar"
+        />
+
+
+</LinearLayout>
